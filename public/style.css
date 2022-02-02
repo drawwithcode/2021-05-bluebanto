@@ -1,0 +1,253 @@
+@font-face {
+  font-family: "Neue";
+  src: url("./assets/font/Neue.otf");
+}
+
+@font-face {
+  font-family: "Suisse";
+  src: url("./assets/font/SuisseIntlMono-Regular.otf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.bottone {
+  /* position: relative; */
+  font-family: "NEUE";
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.bottone2 {
+  /* position: relative; */
+  font-family: "NEUE";
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.bottone3 {
+  /* position: relative; */
+  font-family: "NEUE";
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.testo {
+  /* position: absolute; */
+  font-family: "NEUE";
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+
+#testohome {
+  bottom: 150px;
+  left: 42px;
+}
+
+.testoextra {
+  position: absolute;
+  font-family: "Suisse";
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.item {
+  /* position: absolute; */
+  font-family: "NEUE";
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.descrizione {
+  position: absolute;
+  font-family: "NEUE";
+  font-size: 34px;
+  text-decoration: none;
+  color: white;
+}
+
+#sketch {
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #about {
+  top: 20px;
+  right: 15px;
+}
+
+#enter {
+  bottom: 50px;
+  right: 15px;
+} */
+
+#playlist {
+  bottom: 15px;
+  right: 15px;
+}
+
+#backhome {
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 5px;
+  top: 5px;
+  left: 5px;
+}
+
+#testoabout {
+  top: 40px;
+  right: 410px;
+}
+
+#credits {
+  bottom: 15px;
+  right: 1270px;
+}
+
+#save {
+  position: absolute;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  bottom: 5px;
+  left: 5px;
+  background: transparent;
+  border: none;
+}
+
+#logo-container {
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+
+/* overlay */
+#grain {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-repeat: repeat;
+  mix-blend-mode: multiply;
+  opacity: 0.6;
+  z-index: 1;
+  pointer-events: none;
+  background-image: url(./assets/images/granafondo.gif);
+  z-index: 100;
+}
+
+/* MARQUEE */
+marquee {
+  /* bottom: 0; */
+  position: relative;
+  padding: 3px;
+  background-color: #fd4100;
+  height: fit-content;
+}
+
+/*TESTO SCORRIMENTO MARQUEE*/
+#text-marquee {
+  font-family: Neue;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+.contenitore {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.wrapper {
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* width: 100%; */
+  height: 50%;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  /* height: fit-content; */
+  padding: 0;
+}
+
+#ftplay {
+  justify-content: space-between;
+}
+
+.header {
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+  /* height: fit-content; */
+  padding: 0;
+}

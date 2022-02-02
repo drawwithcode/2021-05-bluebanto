@@ -1,0 +1,24 @@
+{
+  "name": "2021-05-bluebanto",
+  "version": "1.0.0",
+  "description": "a simple node app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluebanto/2021-05-bluebanto.git"
+  },
+  "author": "Bluebanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluebanto/2021-05-bluebanto/issues"
+  },
+  "homepage": "https://github.com/bluebanto/2021-05-bluebanto#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  }
+}
